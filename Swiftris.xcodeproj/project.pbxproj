@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		73958ED419AB0FB4005C0E9D /* bomb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 73958ECF19AB0FB4005C0E9D /* bomb.mp3 */; };
+		73958ED519AB0FB4005C0E9D /* drop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 73958ED019AB0FB4005C0E9D /* drop.mp3 */; };
+		73958ED619AB0FB4005C0E9D /* gameover.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 73958ED119AB0FB4005C0E9D /* gameover.mp3 */; };
+		73958ED719AB0FB4005C0E9D /* levelup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 73958ED219AB0FB4005C0E9D /* levelup.mp3 */; };
+		73958ED819AB0FB4005C0E9D /* theme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 73958ED319AB0FB4005C0E9D /* theme.mp3 */; };
 		940CA57019A9992A00AA0D7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940CA56F19A9992A00AA0D7C /* AppDelegate.swift */; };
 		940CA57419A9992A00AA0D7C /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940CA57319A9992A00AA0D7C /* GameScene.swift */; };
 		940CA57619A9992A00AA0D7C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940CA57519A9992A00AA0D7C /* GameViewController.swift */; };
 		940CA57919A9992A00AA0D7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 940CA57719A9992A00AA0D7C /* Main.storyboard */; };
 		940CA57B19A9992A00AA0D7C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 940CA57A19A9992A00AA0D7C /* Images.xcassets */; };
 		940CA58719A9992A00AA0D7C /* SwiftrisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940CA58619A9992A00AA0D7C /* SwiftrisTests.swift */; };
-		946DB0EC19A99BA700DD2F8E /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 946DB0EB19A99BA700DD2F8E /* Sounds */; };
 		946DB0EE19A99BCF00DD2F8E /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 946DB0ED19A99BCF00DD2F8E /* Sprites.atlas */; };
 		946DB0F219A9A99A00DD2F8E /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946DB0F119A9A99A00DD2F8E /* Array2D.swift */; };
 		946DB0F419A9C6EE00DD2F8E /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946DB0F319A9C6EE00DD2F8E /* Block.swift */; };
@@ -45,6 +49,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		73958ECF19AB0FB4005C0E9D /* bomb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bomb.mp3; path = Sounds/bomb.mp3; sourceTree = "<group>"; };
+		73958ED019AB0FB4005C0E9D /* drop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = drop.mp3; path = Sounds/drop.mp3; sourceTree = "<group>"; };
+		73958ED119AB0FB4005C0E9D /* gameover.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = gameover.mp3; path = Sounds/gameover.mp3; sourceTree = "<group>"; };
+		73958ED219AB0FB4005C0E9D /* levelup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = levelup.mp3; path = Sounds/levelup.mp3; sourceTree = "<group>"; };
+		73958ED319AB0FB4005C0E9D /* theme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = theme.mp3; path = Sounds/theme.mp3; sourceTree = "<group>"; };
 		940CA56A19A9992A00AA0D7C /* Swiftris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swiftris.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		940CA56E19A9992A00AA0D7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		940CA56F19A9992A00AA0D7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -55,7 +64,6 @@
 		940CA58019A9992A00AA0D7C /* SwiftrisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftrisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		940CA58519A9992A00AA0D7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		940CA58619A9992A00AA0D7C /* SwiftrisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftrisTests.swift; sourceTree = "<group>"; };
-		946DB0EB19A99BA700DD2F8E /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
 		946DB0ED19A99BCF00DD2F8E /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
 		946DB0F119A9A99A00DD2F8E /* Array2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
 		946DB0F319A9C6EE00DD2F8E /* Block.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
@@ -139,6 +147,11 @@
 		940CA56D19A9992A00AA0D7C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				73958ECF19AB0FB4005C0E9D /* bomb.mp3 */,
+				73958ED019AB0FB4005C0E9D /* drop.mp3 */,
+				73958ED119AB0FB4005C0E9D /* gameover.mp3 */,
+				73958ED219AB0FB4005C0E9D /* levelup.mp3 */,
+				73958ED319AB0FB4005C0E9D /* theme.mp3 */,
 				946DB11319AA3B3D00DD2F8E /* background.png */,
 				946DB11419AA3B3D00DD2F8E /* background@2x.png */,
 				946DB11519AA3B3D00DD2F8E /* gameboard.png */,
@@ -146,7 +159,6 @@
 				946DB11719AA3B3D00DD2F8E /* whitebg.png */,
 				946DB11819AA3B3D00DD2F8E /* whitebg@2x.png */,
 				946DB0ED19A99BCF00DD2F8E /* Sprites.atlas */,
-				946DB0EB19A99BA700DD2F8E /* Sounds */,
 				940CA56E19A9992A00AA0D7C /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -249,16 +261,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				946DB0EC19A99BA700DD2F8E /* Sounds in Resources */,
 				946DB11919AA3B3D00DD2F8E /* background.png in Resources */,
 				940CA57B19A9992A00AA0D7C /* Images.xcassets in Resources */,
 				946DB0EE19A99BCF00DD2F8E /* Sprites.atlas in Resources */,
+				73958ED719AB0FB4005C0E9D /* levelup.mp3 in Resources */,
 				946DB11B19AA3B3D00DD2F8E /* gameboard.png in Resources */,
+				73958ED419AB0FB4005C0E9D /* bomb.mp3 in Resources */,
 				946DB11D19AA3B3D00DD2F8E /* whitebg.png in Resources */,
+				73958ED619AB0FB4005C0E9D /* gameover.mp3 in Resources */,
 				946DB11A19AA3B3D00DD2F8E /* background@2x.png in Resources */,
 				946DB11E19AA3B3D00DD2F8E /* whitebg@2x.png in Resources */,
 				940CA57919A9992A00AA0D7C /* Main.storyboard in Resources */,
 				946DB11C19AA3B3D00DD2F8E /* gameboard@2x.png in Resources */,
+				73958ED519AB0FB4005C0E9D /* drop.mp3 in Resources */,
+				73958ED819AB0FB4005C0E9D /* theme.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
